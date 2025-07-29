@@ -1,81 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HTML, CSS y JavaScript</title>
+  <meta charset="UTF-8">
+  <title>Lenguajes Web</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f3f4f6;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
+      margin: 20px;
+      background-color: #f5f5f5;
     }
-    header {
-      background-color: #1f2937;
-      color: #fff;
-      padding: 1rem 2rem;
+    h1 {
       text-align: center;
+      color: #333;
     }
-    main {
-      padding: 2rem;
-    }
-    section {
-      background: #ffffff;
-      margin-bottom: 2rem;
-      padding: 1.5rem;
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 20px;
       border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 0 10px #ccc;
     }
-    h2 {
-      color: #111827;
+    .section {
+      margin-bottom: 30px;
     }
-    .btn {
-      background-color: #2563eb;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      margin-top: 10px;
+    .section h2 {
+      color: #0066cc;
+    }
+    .section p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .image {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .image img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <h1>Lenguajes para Crear Páginas Web</h1>
 
-  <header>
-    <h1>¿Qué son HTML, CSS y JavaScript?</h1>
-  </header>
-
-  <main>
-    <section>
-      <h2>HTML</h2>
-      <p>HTML es el lenguaje de marcado que estructura el contenido de las páginas web. Define elementos como títulos, párrafos, imágenes y enlaces.</p>
-    </section>
-
-    <section>
-      <h2>CSS</h2>
-      <p>CSS es el lenguaje que da estilo a las páginas web. Permite cambiar colores, fuentes, tamaños y adaptar el diseño a distintos dispositivos.</p>
-    </section>
-
-    <section>
-      <h2>JavaScript</h2>
-      <p>JavaScript es el lenguaje de programación que da interactividad y dinamismo a una página. Permite crear efectos, validar formularios y mucho más.</p>
-    </section>
-
-    <section>
-      <h2>Interacción</h2>
-      <p>Haz clic en el botón para ver un mensaje con JavaScript:</p>
-      <button class="btn" onclick="saludar()">¡Clic aquí!</button>
-    </section>
-  </main>
-
-  <script>
-    function saludar() {
-      alert("¡Gracias por visitar esta página sobre HTML, CSS y JavaScript!");
-    }
-  </script>
-
-</body>
-</html>
+    <div class="image">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML_CSS_JS.png" alt
