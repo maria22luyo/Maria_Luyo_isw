@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML, CSS y JavaScript</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f4f6;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1f2937;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+    }
+    section {
+      background: #ffffff;
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #111827;
+    }
+    .btn {
+      background-color: #2563eb;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>¿Qué son HTML, CSS y JavaScript?</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>HTML</h2>
+      <p>HTML es el lenguaje de marcado que estructura el contenido de las páginas web. Define elementos como títulos, párrafos, imágenes y enlaces.</p>
+    </section>
+
+    <section>
+      <h2>CSS</h2>
+      <p>CSS es el lenguaje que da estilo a las páginas web. Permite cambiar colores, fuentes, tamaños y adaptar el diseño a distintos dispositivos.</p>
+    </section>
+
+    <section>
+      <h2>JavaScript</h2>
+      <p>JavaScript es el lenguaje de programación que da interactividad y dinamismo a una página. Permite crear efectos, validar formularios y mucho más.</p>
+    </section>
+
+    <section>
+      <h2>Interacción</h2>
+      <p>Haz clic en el botón para ver un mensaje con JavaScript:</p>
+      <button class="btn" onclick="saludar()">¡Clic aquí!</button>
+    </section>
+  </main>
+
+  <script>
+    function saludar() {
+      alert("¡Gracias por visitar esta página sobre HTML, CSS y JavaScript!");
+    }
+  </script>
+
+</body>
+</html>
