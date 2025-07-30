@@ -82,7 +82,7 @@
   <section>
     <h2>Organigrama</h2>
     <p>Visita nuestro canal de YouTube para conocer nuestro organigrama institucional.</p>
-    <a class="boton" href="https://www.youtube.com/@vallegrande">Ir a YouTube</a>
+    <a class="boton" href="https://www.youtube.com/@vallegrande_">Ir a YouTube</a>
   </section>
 
   <section>
