@@ -35,7 +35,9 @@
       text-align: center;
       padding: 10px;
     }
-    .boton {
+    .boton {![vallegrande](https://github.com/user-attachments/assets/92866cbe-f4f6-4eaa-abff-0269fcf4384a)
+![edupe](https://github.com/user-attachments/assets/e547e3cd-9c81-4528-b850-427a53ebce2a)
+
       display: inline-block;
       background-color: #0073e6;
       color: white;
@@ -90,12 +92,12 @@
 
   <section>
     <h2>Nuestras instalaciones</h2>
-    <img src="edupe.JPG" alt="Campus de Valle Grande" />
   </section>
 
   <section>
     <h2>Organigrama</h2>
     <p>Visita nuestro canal de YouTube para conocer nuestro organigrama institucional.</p>
+    <img src="edupe.JPG" alt="Campus de Valle Grande" />
     <a class="boton" href="https://www.youtube.com/@vallegrande_">Ir a YouTube</a>
   </section>
 
