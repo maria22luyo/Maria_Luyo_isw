@@ -75,7 +75,7 @@
     <p>
       Han transcurrido casi 50 años de trabajo y continuamos con el mismo deseo: seguir contribuyendo con el bienestar de las familias de Cañete y Yauyos.
     </p>
-    <a class="boton" href="#">LEER MÁS</a>
+    <a class="boton" href="https://vallegrande.edu.pe/nosotros/">LEER MÁS</a>
   </section>
 
   <section>
