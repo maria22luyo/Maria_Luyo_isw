@@ -91,10 +91,6 @@
   </section>
 
   <section>
-    <h2>Nuestras instalaciones</h2>
-  </section>
-
-  <section>
     <h2>Organigrama</h2>
     <p>Visita nuestro canal de YouTube para conocer nuestro organigrama institucional.</p>
     <img src="edupe.JPG" alt="Campus de Valle Grande" />
